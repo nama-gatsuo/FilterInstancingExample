@@ -1,0 +1,115 @@
+{
+    "deferred": {
+        "BgPass": {
+            "active": "1",
+            "fill_color": "0, 0, 0, 1"
+        },
+        "BloomPass": {
+            "BlurPass": {
+                "active": "1",
+                "blurRes": "12",
+                "preShrink": "2",
+                "sampleStep": "1"
+            },
+            "active": "1",
+            "luma_threshold": "0.45",
+            "strength": "2.08333"
+        },
+        "DofPass": {
+            "BlurPass": {
+                "active": "1",
+                "blurRes": "12",
+                "preShrink": "4",
+                "sampleStep": "1"
+            },
+            "active": "1",
+            "bokeh": {
+                "bokehCocThres": "0.03",
+                "bokehDepthCutoff": "0.03",
+                "bokehLumThres": "0.03",
+                "bokehShapeId": "0",
+                "isActiveBokeh": "0",
+                "maxBokehCount": "495",
+                "maxBokehRadius": "100"
+            },
+            "endpoint_coc": "0.438776, 1",
+            "focul_range": "0.132653, 0.226191"
+        },
+        "EdgePass": {
+            "active": "1",
+            "bg_color": "0, 0, 0, 1",
+            "depthEdgeStrength": "1",
+            "edge_color": "0.602273, 0.602273, 0.602273, 1",
+            "normalEdgeStrength": "1",
+            "use_read_as_bg": "1"
+        },
+        "PointLightPass": {
+            "active": "0",
+            "lightBrightness": "2",
+            "light_0": {
+                "diffuse_color": "0.808096, 0.262551, 0.864794, 1",
+                "intensity": "0.939421",
+                "isActive": "1",
+                "position": "-448.085, -447.255, -547.551",
+                "radius": "64.7274",
+                "specular_color": "0.718577, 0.451637, 0.656447, 1"
+            },
+            "light_1": {
+                "diffuse_color": "0.254732, 0.582162, 0.898569, 1",
+                "intensity": "0.466292",
+                "isActive": "1",
+                "position": "89.9197, 617.621, -352.525",
+                "radius": "193.03",
+                "specular_color": "0.915989, 0.848402, 0.646724, 1"
+            },
+            "light_2": {
+                "diffuse_color": "0.691946, 0.833091, 0.831767, 1",
+                "intensity": "0.0189825",
+                "isActive": "1",
+                "position": "-309.214, -12.2806, -753.807",
+                "radius": "280.47",
+                "specular_color": "0.895187, 0.828114, 0.512851, 1"
+            },
+            "light_3": {
+                "diffuse_color": "0.261269, 0.630955, 0.359688, 1",
+                "intensity": "0.563372",
+                "isActive": "1",
+                "position": "-472.646, -291.684, -788.232",
+                "radius": "109.051",
+                "specular_color": "0.445265, 0.541746, 0.538542, 1"
+            },
+            "light_4": {
+                "diffuse_color": "0.344285, 0.529759, 0.41113, 1",
+                "intensity": "0.136906",
+                "isActive": "1",
+                "position": "-137.968, -135.624, 365.465",
+                "radius": "418.75",
+                "specular_color": "0.732933, 0.563262, 0.749577, 1"
+            },
+            "light_5": {
+                "diffuse_color": "0.337449, 0.739329, 0.238176, 1",
+                "intensity": "0.999267",
+                "isActive": "1",
+                "position": "-752.977, 425.623, 489.59",
+                "radius": "55.0974",
+                "specular_color": "0.791436, 0.625886, 0.85461, 1"
+            }
+        },
+        "ShadowLightPass": {
+            "active": "1",
+            "ambient_color": "0.6, 0.6, 0.6, 1",
+            "darkness": "0.8",
+            "diffuse_color": "0.9, 0.9, 0.9, 1",
+            "far_clip": "1917.47",
+            "near_clip": "458.333",
+            "source_look": "0, 0, 0",
+            "source_position": "-6.96582, 62.6941, 323.918",
+            "view_port_size": "240.7"
+        },
+        "SsaoPass": {
+            "active": "1",
+            "darkness": "1",
+            "occlusion_radius": "5"
+        }
+    }
+}
